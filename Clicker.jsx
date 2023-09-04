@@ -13,9 +13,11 @@ function Clicker(){
       setValueCount(count - 1)
     }
   
+    /*
     useEffect(() => {
         console.log('clicker')
     }, [count]);
+    */
 
     return (
       <div className="App">
